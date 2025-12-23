@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Heal Antivirus | Secure Software Hub</title>
+
+</head>
+<style>
+
+    /* ===== RESET ===== */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* ===== BODY ===== */
+    body {
+        background: linear-gradient(135deg, #eaf2ff, #f8fbff);
+        color: #1a1a1a;
+        line-height: 1.6;
+    }
+
+    /* ===== HEADER ===== */
+    header {
+        background: linear-gradient(135deg, #0d47a1, #1565c0);
+        color: white;
+        text-align: center;
+        padding: 30px 15px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+    }
+
+    header img {
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 32px;
+        letter-spacing: 1px;
+    }
+
+    header p {
+        font-size: 14px;
+        opacity: 0.9;
+    }
+
+    /* ===== CONTAINER ===== */
+    .container {
+        width: 95%;
+        max-width: 1300px;
+        margin: 40px auto;
+    }
+
+    .container h2 {
+        text-align: center;
+        font-size: 28px;
+        color: #0d47a1;
+        margin-bottom: 30px;
+    }
+
+    /* ===== PRODUCT GRID ===== */
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 25px;
+    }
+
+    /* ===== PRODUCT CARD ===== */
+    .product-card {
+        background: white;
+        border-radius: 14px;
+        padding: 18px;
+        box-shadow: 0 10px 25px rgba(13, 71, 161, 0.15);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-top: 5px solid #1565c0;
+    }
+
+    .product-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 18px 35px rgba(13, 71, 161, 0.25);
+    }
+
+    /* ===== PRODUCT IMAGE ===== */
+    .product-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: contain;
+        margin-bottom: 12px;
+    }
+
+    /* ===== PRODUCT TITLE ===== */
+    .product-card h3 {
+        font-size: 18px;
+        color: #0d47a1;
+        margin-bottom: 10px;
+    }
+
+    /* ===== PRICE TEXT ===== */
+    .price {
+        font-size: 14px;
+        color: #333;
+        margin: 3px 0;
+    }
+
+    /* ===== SELECT BOX ===== */
+    label {
+        font-size: 14px;
+        color: #0d47a1;
+    }
+
+    .plan-select {
+        width: 100%;
+        padding: 8px;
+        margin-top: 6px;
+        border-radius: 6px;
+        border: 1px solid #90caf9;
+        outline: none;
+        transition: border 0.3s ease;
+    }
+
+    .plan-select:focus {
+        border: 1px solid #0d47a1;
+    }
+
+    /* ===== QUANTITY ===== */
+    .qty-box input {
+        width: 100%;
+        padding: 7px;
+        border-radius: 6px;
+        border: 1px solid #90caf9;
+        margin-top: 6px;
+    }
+
+    /* ===== BUTTONS ===== */
+    .btn {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 8px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+
+    /* BUY NOW BUTTON */
+    .buy-now {
+        background: linear-gradient(135deg, #1565c0, #1e88e5);
+        color: white;
+    }
+
+    .buy-now:hover {
+        background: linear-gradient(135deg, #0d47a1, #1565c0);
+        transform: scale(1.02);
+    }
+
+    /* WHATSAPP BUTTON */
+    .whatsapp {
+        background: linear-gradient(135deg, #25d366, #1ebe5d);
+        color: white;
+    }
+
+    .whatsapp:hover {
+        background: linear-gradient(135deg, #1ebe5d, #128c7e);
+        transform: scale(1.02);
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+        margin-top: 50px;
+        background: #0d47a1;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 600px) {
+        header h1 {
+            font-size: 24px;
+        }
+
+        .container h2 {
+            font-size: 22px;
+        }
+    }
+</style>
+
+
+
+<body>
+
+    <header>
+        <img src="quick heal logo.jpg" alt="Quick Heal Logo" width="140px" height="140px">
+        <h1>Quick Heal Antivirus</h1>
+        <p>100% Genuine | Instant Activation | Trusted Protection</p>
+    </header>
+
+    <div class="container">
+
+        <h2>Available Products</h2>
+
+        <div class="product-grid">
+
+            <!-- PRODUCT 1 -->
+            <div class="product-card">
+                <img src="QH antivirus pro img.jpg" alt="Quick Heal Antivirus Pro">
+                <h3>Quick Heal Antivirus Pro</h3>
+                <p class="price">₹298 / 1 user 1 Year</p>
+                <p class="price">₹514 / 2 user 1 Year</p>
+                <p class="price">₹874 / 3 user 1 Year</p>
+                <p class="price">₹1374 / 5 user 1 Year</p>
+                <p class="price">₹2098 /10 user 1 Year</p>
+                <p class="price">₹798 /1 user 3 Year</p>
+                <p class="price">₹1048 /2 user 3 Year</p>
+
+
+                <!-- Plan Selection -->
+                <label><b>Select Plan:</b></label><br>
+                <select class="plan-select" onchange="showQuantity(this)">
+                    <option value="">-- Select Plan --</option>
+                    <option value="1 User 1 Year">1 User / 1 Year</option>
+                    <option value="2 User 1 Year">2 User / 1 Year</option>
+                    <option value="3 User 1 Year">3 User / 1 Year</option>
+                    <option value="5 User 1 Year">5 User / 1 Year</option>
+                    <option value="10 User 1 Year">10 User / 1 Year</option>
+                    <option value="1 User 3 Year">1 User / 3 Year</option>
+                    <option value="2 User 3 Year">2 User / 3 Year</option>
+                </select>
+
+                <br><br>
+
+                <!-- Quantity -->
+                <div class="qty-box" style="display:none;">
+                    <label><b>Quantity:</b></label><br>
+                    <input type="number" min="1" value="1">
+                </div>
+
+                <a href="https://wa.me/9604901674?text=I%20want%20Quick%20Heal%20Antivirus%20Pro" class="btn whatsapp"
+                    target="_blank">
+                    Buy via WhatsApp
+                </a>
+
+            </div>
+
+            <!-- PRODUCT 2 -->
+            <div class="product-card">
+                <img src="QH total security img.jpg" alt="Quick Heal Total Security">
+                <h3>Quick Heal Total Security</h3>
+                <p class="price">₹674 /1 user 1 Year</p>
+                <p class="price">₹1148 / 2 user 1 Year</p>
+                <p class="price">₹1948 / 3 user 1 Year</p>
+                <p class="price">₹2898 / 5 user 1 Year</p>
+                <p class="price">₹4198 / 10 user 1 Year</p>
+                <p class="price">₹2198 /2 user 3 Year</p>
+                <p class="price">₹3948 /3 user 3 Year</p>
+                <p class="price">₹5748 /5 user 3 Year</p>
+                <p class="price">₹8398 /10 user 3 Year</p>
+
+                <!-- Plan Selection -->
+                <label><b>Select Plan:</b></label><br>
+                <select class="plan-select" onchange="showQuantity(this)">
+                    <option value="">-- Select Plan --</option>
+                    <option value="1 User 1 Year">1 User / 1 Year</option>
+                    <option value="2 User 1 Year">2 User / 1 Year</option>
+                    <option value="3 User 1 Year">3 User / 1 Year</option>
+                    <option value="5 User 1 Year">5 User / 1 Year</option>
+                    <option value="10 User 1 Year">10 User / 1 Year</option>
+                    <option value="2 User 3 Year">2 User / 3 Year</option>
+                    <option value="3 User 3 Year">3 User / 3 Year</option>
+                    <option value="5 User 3 Year">5 User / 3 Year</option>
+                    <option value="10 User 3 Year">10 User / 3 Year</option>
+                </select>
+
+                <br><br>
+
+                <!-- Quantity -->
+                <div class="qty-box" style="display:none;">
+                    <label><b>Quantity:</b></label><br>
+                    <input type="number" min="1" value="1">
+                </div>
+
+
+
+                <a href="https://wa.me/9604901674?text=I%20want%20Quick%20Heal%20Total%20Security" class="btn whatsapp"
+                    target="_blank">
+                    Buy via WhatsApp
+                </a>
+            </div>
+
+            <!-- PRODUCT 3 -->
+            <div class="product-card">
+                <img src="QH TS renewal pack.jpg" alt="Quick Heal Total security Renewal pack">
+                <h3>Quick Heal Total Security Renewal pack</h3>
+                <p class="price">₹1398 /1 Piece 3 Year</p>
+                <p class="price">₹998 /2 Piece 1 Year</p>
+                <p class="price">₹1998 /2 Piece 3 Year</p>
+                <p class="price">₹2598 /5 Piece 1 Year</p>
+                <p class="price">₹5198 /5 Piece 3 Year</p>
+                <p class="price">₹4098 /10 Piece 1 Year</p>
+                <p class="price">₹7998 /10 Piece 3 Year</p>
+
+                <!-- Plan Selection -->
+                <label><b>Select Plan:</b></label><br>
+                <select class="plan-select" onchange="showQuantity(this)">
+                    <option value="">-- Select Plan --</option>
+                    <option value="1 piece 3 Year">1 peice / 3 Year</option>
+                    <option value="2 piece 1 Year">2 peice / 1 Year</option>
+                    <option value="2 piece 3 Year">2 peice / 3 Year</option>
+                    <option value="5 piece 1 Year">5 peice / 1 Year</option>
+                    <option value="5 piece 3 Year">5 peice / 3 Year</option>
+                    <option value="10 piece 1 Year">10 peice / 1 Year</option>
+                    <option value="10 piece 3 Year">10 peice / 3 Year</option>
+
+                </select>
+
+                <br><br>
+
+                <!-- Quantity -->
+                <div class="qty-box" style="display:none;">
+                    <label><b>Quantity:</b></label><br>
+                    <input type="number" min="1" value="1">
+                </div>
+
+
+                <a href="https://wa.me/9604901674?text=I%20want%20Quick%20Heal%20Internet%20Security"
+                    class="btn whatsapp" target="_blank">
+                    Buy via WhatsApp
+                </a>
+            </div>
+
+            <!-- PRODUCT 4 -->
+            <div class="product-card">
+                <img src="QH internet security img.jpg" alt="Quick Heal Internet security">
+                <h3>Quick Heal Internet Security</h3>
+                <p class="price">₹509 /1 user 1 Year</p>
+                <p class="price">₹898 / 2 user 1 Year</p>
+                <p class="price">₹1448 / 3 user 1 Year</p>
+                <p class="price">₹2148 / 5 user 1 Year</p>
+                <p class="price">₹3198 / 10 user 1 Year</p>
+                <p class="price">₹1009 /1 user 3 Year</p>
+                <p class="price">₹1774 /2 user 3 Year</p>
+                <p class="price">₹2898 /3 user 3 Year</p>
+                <p class="price">₹4298 /5 user 3 Year</p>
+                <p class="price">₹6298 /10 user 3 Year</p>
+
+                <!-- Plan Selection -->
+                <label><b>Select Plan:</b></label><br>
+                <select class="plan-select" onchange="showQuantity(this)">
+                    <option value="">-- Select Plan --</option>
+                    <option value="1 User 1 Year">1 User / 1 Year</option>
+                    <option value="2 User 1 Year">2 User / 1 Year</option>
+                    <option value="3 User 1 Year">3 User / 1 Year</option>
+                    <option value="5 User 1 Year">5 User / 1 Year</option>
+                    <option value="10 User 1 Year">10 User / 1 Year</option>
+                    <option value="1 User 3 Year">1 User / 3 Year</option>
+                    <option value="2 User 3 Year">2 User / 3 Year</option>
+                    <option value="3 User 3 Year">3 User / 3 Year</option>
+                    <option value="5 User 3 Year">5 User / 3 Year</option>
+                    <option value="10 User 3 Year">10 User / 3 Year</option>
+                </select>
+
+                <br><br>
+
+                <!-- Quantity -->
+                <div class="qty-box" style="display:none;">
+                    <label><b>Quantity:</b></label><br>
+                    <input type="number" min="1" value="1">
+                </div>
+
+
+
+
+                <a href="https://wa.me/9604901674?text=I%20want%20Quick%20Heal%20Total%20Security" class="btn whatsapp"
+                    target="_blank">
+                    Buy via WhatsApp
+                </a>
+            </div>
+
+            <!-- PRODUCT 5 -->
+            <div class="product-card">
+                <img src="QH int sec Renewal pack.jpg" alt="Quick Heal Internet security Renewal pack">
+                <h3>Quick Heal Internet Security Renewal pack</h3>
+                <p class="price">₹494 /1 Piece 1 Year</p>
+                <p class="price">₹998 / 1 Piece 3 Year</p>
+
+                <!-- Plan Selection -->
+                <label><b>Select Plan:</b></label><br>
+                <select class="plan-select" onchange="showQuantity(this)">
+                    <option value="">-- Select Plan --</option>
+                    <option value="1 piece 1 Year">1 peice / 1 Year</option>
+                    <option value="1 piece 3 Year">1 peice / 3 Year</option>
+
+
+                </select>
+
+                <br><br>
+
+                <!-- Quantity -->
+                <div class="qty-box" style="display:none;">
+                    <label><b>Quantity:</b></label><br>
+                    <input type="number" min="1" value="1">
+                </div>
+
+
+
+                <a href="https://wa.me/9604901674?text=I%20want%20Quick%20Heal%20Total%20Security" class="btn whatsapp"
+                    target="_blank">
+                    Buy via WhatsApp
+                </a>
+            </div>
+
+            <!-- PRODUCT 6 -->
+            <div class="product-card">
+                <img src="QH TS combo pack.jpg" alt="Quick Heal Total security + Windows 10 pro key">
+                <h3>Quick Heal Total security + Windows 10 pro key</h3>
+                <p class="price">₹1048 </p>
+
+
+
+                <a href="https://wa.me/9604901674?text=I%20want%20Quick%20Heal%20Total%20Security" class="btn whatsapp"
+                    target="_blank">
+                    Buy via WhatsApp
+                </a>
+            </div>
+
+            <!-- PRODUCT 7 -->
+            <div class="product-card">
+                <img src="QH TS multi device.jpg" alt="Quick Heal Total security MUlti devices">
+                <h3>Quick Heal Total security Multi devices</h3>
+                <p class="price">₹2249 / 3 device 1 Year </p>
+
+                <!-- Plan Selection -->
+                <label><b>Select Plan:</b></label><br>
+                <select class="plan-select" onchange="showQuantity(this)">
+                    <option value="">-- Select Plan --</option>
+                    <option value="3 device 1 Year">3 device / 1 Year</option>
+
+                </select>
+
+                <br><br>
+
+                <!-- Quantity -->
+                <div class="qty-box" style="display:none;">
+                    <label><b>Quantity:</b></label><br>
+                    <input type="number" min="1" value="1">
+                </div>
+
+
+                <a href="https://wa.me/9604901674?text=I%20want%20Quick%20Heal%20Total%20Security" class="btn whatsapp"
+                    target="_blank">
+                    Buy via WhatsApp
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+
+    <footer>
+        © 2026 Secure Software Hub | 100% Trusted & Genuine Software
+    </footer>
+
+    <script>
+        function showQuantity(selectBox) {
+            const qtyBox = selectBox.parentElement.querySelector('.qty-box');
+            if (selectBox.value !== "") {
+                qtyBox.style.display = "block";
+            } else {
+                qtyBox.style.display = "none";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
